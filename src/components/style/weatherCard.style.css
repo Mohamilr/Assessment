@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px #aaa;
+    margin: 2em 0;
+  }
+  
+  .content > p {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+  }
+  
+  .content  p:nth-child(1) > span {
+    margin: 13px;
+  }
+
+  .content :nth-child(2) > span {
+    text-align: left;
+  }
